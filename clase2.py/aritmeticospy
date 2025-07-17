@@ -1,0 +1,8 @@
+# Verifica si un número es mayor que 0 y menor que 10
+
+numero = int(input("Ingrese un número: "))
+
+if numero > 0 and numero < 10:
+    print("El número está entre 1 y 9.")
+else:
+    print("El número NO está entre 1 y 9.")
